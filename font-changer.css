@@ -1,0 +1,132 @@
+/*
+By: Hossein Akbari
+*/
+
+html {
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: 'Shabnam';
+    font-style: normal;
+    font-weight: normal;
+    src: url('fonts/Shabnam/Shabnam-FD.eot');
+    src: url('fonts/Shabnam/Shabnam-FD.eot?#iefix') format('embedded-opentype'), url('fonts/Shabnam/Shabnam-FD.woff2') format('woff2'), url('fonts/Shabnam/Shabnam-FD.woff') format('woff'), url('fonts/Shabnam/Shabnam-FD.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Shabnam';
+    font-style: normal;
+    font-weight: bold;
+    src: url('fonts/Shabnam-Bold/Shabnam-Bold-FD.eot');
+    src: url('fonts/Shabnam-Bold/Shabnam-Bold-FD.eot?#iefix') format('embedded-opentype'), url('fonts/Shabnam-Bold/Shabnam-Bold-FD.woff2') format('woff2'), url('fonts/Shabnam-Bold/Shabnam-Bold-FD.woff') format('woff'), url('fonts/Shabnam-Bold/Shabnam-Bold-FD.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Shabnam';
+    font-style: normal;
+    font-weight: lighter;
+    src: url('fonts/Shabnam-Light/Shabnam-Light-FD.eot');
+    src: url('fonts/Shabnam-Light/Shabnam-Light-FD.eot?#iefix') format('embedded-opentype'), url('fonts/Shabnam-Light/Shabnam-Light-FD.woff2') format('woff2'), url('fonts/Shabnam-Light/Shabnam-Light-FD.woff') format('woff'), url('fonts/Shabnam-Light/Shabnam-Light-FD.ttf') format('truetype');
+}
+
+ul#adminmenu,
+.contextual-help-sidebar,
+.help-tab-content,
+.active,
+.add-buttons-title,
+.updated_base,
+.selection-error-label,
+.selection-error-filename,
+.selection-error-message,
+.details,
+.instructions,
+code,
+p,
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+label,
+button,
+select,
+.description,
+textarea,
+form,
+th,
+.username,
+.display-name,
+#published-posts,
+span.editor-block-inspector__no-blocks.block-editor-block-inspector__no-blocks,
+.table-of-contents__counts,
+input,
+td,
+.manage-menus,
+.widget-description,
+ul,
+li,
+.rtl #wpadminbar *,
+.editor-styles-wrapper>*,
+.editor-styles-wrapper p,
+.editor-styles-wrapper ol,
+.editor-styles-wrapper ul,
+.editor-styles-wrapper dl,
+.editor-styles-wrapper dt,
+.editor-post-title__block .editor-post-title__input,
+.editor-styles-wrapper .wp-block h1,
+.editor-styles-wrapper .wp-block h2,
+.editor-styles-wrapper .wp-block h3,
+.editor-styles-wrapper .wp-block h4,
+.editor-styles-wrapper .wp-block h5,
+.editor-styles-wrapper .wp-block h6,
+.editor-styles-wrapper .has-drop-cap:not(:focus)::first-letter,
+.editor-styles-wrapper cite,
+.editor-styles-wrapper figcaption,
+.editor-styles-wrapper .wp-caption-text,
+.editor-post-title__block .editor-post-title__input,
+.editor-styles-wrapper .wp-block h1,
+.editor-styles-wrapper .wp-block h2,
+.editor-styles-wrapper .wp-block h3,
+.editor-styles-wrapper .wp-block h4,
+.editor-styles-wrapper .wp-block h5,
+.editor-styles-wrapper .wp-block h6,
+.editor-styles-wrapper .has-drop-cap:not(:focus)::first-letter,
+.editor-styles-wrapper cite,
+.editor-styles-wrapper figcaption,
+.editor-styles-wrapper .wp-caption-text,
+.components-form-token-field__input-container,
+body.rtl,
+body.rtl .press-this a.wp-switch-editor,
+.wp-block-nextpage>span {
+    font-family: 'Shabnam' !important;
+}
+
+* {
+    outline: none !important;
+}
+
+.dashicons,
+.dashicons-before:before,
+#wpadminbar .ab-icon,
+#wpadminbar .ab-item:before,
+#wpadminbar>#wp-toolbar>#wp-admin-bar-root-default .ab-icon,
+.wp-admin-bar-arrow {
+    font-family: dashicons !important;
+}
+
+.tgmpa td.version>p>span {
+    float: left !important;
+}
+
+.tgmpa .tablenav>p>strong>small {
+    display: none !important;
+}
+
+#adminmenu #menu-posts-elementor_library .wp-menu-image:before,
+#adminmenu #toplevel_page_elementor div.wp-menu-image:before {
+    font-family: eicons !important;
+}
